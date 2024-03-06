@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgs{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.imgs img{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    border: 2px solid #aaa ; 
+}
+.main {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+.main img{
+    width: 850px;
+    height: 650px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #a8a8a8;
+}
